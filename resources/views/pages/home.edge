@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HMR port repro</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+  </head>
+  <body>
+    <main>
+      <h1>HMR port repro</h1>
+      <p>App process received VITE_HMR_PORT=<strong>{{ receivedHmrPort }}</strong></p>
+    </main>
+  </body>
+</html>
