@@ -3,7 +3,7 @@
 This repository reproduces a bug in `@adonisjs/assembler` (the `VITE_HMR_PORT` value is ignored, and two apps started together race for the same HMR port). It supports an issue and a pull request in adonisjs/assembler:
 
 - Issue: https://github.com/adonisjs/assembler/issues/128
-- Pull request: <PR_URL>
+- Pull request: https://github.com/adonisjs/assembler/pull/129
 
 The app is the AdonisJS v7 Hypermedia starter kit, trimmed to one route, one page and one Vite entry. A preload (`start/repro.ts`) logs the value of `VITE_HMR_PORT` the app process receives, and the page shows it too.
 
